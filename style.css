@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+}
+:root{
+    --bg-color: #1d1c1b;
+    --text-color: #fff;
+    --main-color: #ea5445;
+    --other-color: #858585;
+    --h1-font: 5rem;
+    --p-font: 1.1rem;
+}
+ header{ 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 32px 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .50s ease;
+    
+}
+
